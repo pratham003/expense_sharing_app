@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Sharing App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Expense Sharing</h2>
+
+      <div class="form-section">
+        <input type="text" id="name" placeholder="Participant Name" />
+        <input type="number" id="amount" placeholder="Amount Spent" />
+        <button onclick="addExpense()">Add Expense</button>
+        <p id="error-message" class="error"></p>
+      </div>
+
+      <h3>Balance Summary</h3>
+      <button onclick="fetchBalances()">Refresh</button>
+      <ul id="balance-list"></ul>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
