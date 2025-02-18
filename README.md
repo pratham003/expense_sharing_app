@@ -1,5 +1,4 @@
-### TASK 1:
-### **README for Task 1: Expense-Sharing System (CLI-Based)**  
+### TASK 1: 
 
 # **Expense-Sharing System**  
 
@@ -68,7 +67,6 @@ Experience a simple and effective way to **split group expenses** through a ligh
 
 
 ### TASK 2:
-### **README for Task 2: Expense-Sharing Web App**  
 
 # **Expense-Sharing Web App**  
 
