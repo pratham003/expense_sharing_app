@@ -63,7 +63,7 @@ Experience a simple and effective way to **split group expenses** through a ligh
 
 ### **Interface Overview**  
 
-![Description of Image](task 1/image.png)
+![Expense Sharing App](https://github.com/pratham003/expense_sharing_app/blob/main/task%201/image.png?raw=true)
 
 
 ### TASK 2:
